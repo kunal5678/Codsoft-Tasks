@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="task.css" />
+    <title>Kunal Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>CODSOFT INTERNSHIP</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Costing</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Get Ready to Be Amazed by Our Extraordinary Product</h2>
+      <p>Unlock the Extraordinary Features Set to Elevate Your Everyday!</p>
+      <a href="#" class="cta-button">Lets Start</a>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2024 Your Company. All rights reserved.<br />
+        Owner- Kunal Joshi <br />
+        Web Development Internship Codsoft {Level 1 - Task 1}
+      </p>
+    </footer>
+  </body>
+</html>
+
+
+/* Header styles */
+header {
+  background-color: #4CAF50; /* Green */
+  color: #FF5722; /* Orange */
+  padding: 20px;
+  text-align: center; 
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline; 
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FF5722; 
+  font-weight: bold;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url("codsoft.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  color: #673AB7; 
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #009688; /* Teal */
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #E91E63; 
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4CAF50; 
+  color: #FFEB3B; 
+  text-decoration: none;
+  border-radius: 25px; 
+  font-weight: bold;
+  transition: background-color 0.3s ease; 
+}
+
+.cta-button:hover {
+  background-color: #45a049; 
+}
+
+/* Footer styles */
+footer {
+  background-color: #333; 
+  color: #FF5722; 
+  text-align: center;
+  padding: 20px 0;
+}
+
